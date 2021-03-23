@@ -1,8 +1,9 @@
 import React from 'react'
 import './Sidebar.style.scss'
-const Sidebar = () => {
+
+const Sidebar = props => {
     return (<div className='sidebar-container'>
-        <div></div>
+        <div><button onClick={() => {props.addLayout('Đồ thị nến')}}>Test</button></div>
     </div>)
 }
 

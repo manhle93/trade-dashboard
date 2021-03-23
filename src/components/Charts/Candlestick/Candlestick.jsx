@@ -267,9 +267,6 @@ class Candlestick extends React.Component {
             },
         };
     }
-
-
-
     render() {
         return (
       <div className="app">
