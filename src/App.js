@@ -5,9 +5,9 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import React from "react";
 const App = () => {
   const homeRef = React.useRef();
-
+  
   const addLayout = (tabName) => {
-homeRef.current?.onAddLayout(tabName)
+    homeRef.current?.onAddLayout(tabName)
   }
   return (
     <div className='app-container'>

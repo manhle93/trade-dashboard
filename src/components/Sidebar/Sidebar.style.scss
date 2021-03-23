@@ -1,9 +1,19 @@
 .sidebar-container {
-    width: 30px;
+    width: 40px;
     background-color: #283747 ;
     height: 100vh;
     position: fixed;
     left: 0px;
     top: 80px;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .sidebar-icon {
+        padding-top: 15px;
+        font-size: 20px;
+        cursor: pointer;
+        color: #a6acaf   ;
+    }
 }

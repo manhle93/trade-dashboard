@@ -276,7 +276,7 @@ class Candlestick extends React.Component {
               options={this.state.options}
               series={this.state.series}
               type="candlestick"
-              height="100%"
+              height="300"
             />
           </div>
         </div>

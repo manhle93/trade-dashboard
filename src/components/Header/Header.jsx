@@ -2,7 +2,9 @@ import React from 'react'
 import './Header.style.scss'
 const Header = () => {
     return (<div className="header-container">
-        <div></div>
+        <div className="header-logo">
+            Header
+        </div>
         <div></div>
     </div>)
 }
