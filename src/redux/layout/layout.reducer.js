@@ -5,7 +5,7 @@ import Treemap from '../../components/Charts/Treemap/Treemap'
 import Table1 from '../../components/Tables/Table1/Table1'
 import Table2 from '../../components/Tables/Table2/Table2'
 
-import { faCoffee, faChartLine, faChartArea, faMap, faTable, faCannabis } from '@fortawesome/free-solid-svg-icons'
+import { faChartLine, faChartArea, faMap, faTable, faCannabis } from '@fortawesome/free-solid-svg-icons'
 
 const INITIAL_STATE = {
     components: [
