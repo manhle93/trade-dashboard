@@ -5,7 +5,6 @@ import { selectLayoutComponents } from "../../redux/layout/layout.selector";
 import { connect } from "react-redux";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-
 const Sidebar = props => {
     const data = props.data
     return (<div className='sidebar-container'>

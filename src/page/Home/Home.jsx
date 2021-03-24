@@ -1,6 +1,6 @@
 import React, { useImperativeHandle } from "react";
 import FlexLayout from "flexlayout-react";
-import "flexlayout-react/style/light.css";
+import "flexlayout-react/style/dark.css";
 import "./Home.style.scss";
 import { createStructuredSelector } from "reselect";
 import { selectLayoutComponents } from "../../redux/layout/layout.selector";
@@ -51,7 +51,7 @@ var json = {
             children: [
               {
                 type: 'tab',
-                name: 'FI',
+                name: 'Đồ thị miền',
               },
             ]
           },
@@ -62,7 +62,7 @@ var json = {
             children: [
               {
                 type: 'tab',
-                name: 'grid 77',
+                name: 'Bảng biểu 2',
               }
             ]
           }

@@ -1,6 +1,6 @@
 .sidebar-container {
     width: 40px;
-    background-color: #283747 ;
+    background-color: #17202A ;
     height: 100vh;
     position: fixed;
     left: 0px;
@@ -11,9 +11,14 @@
     align-items: center;
 
     .sidebar-icon {
-        padding-top: 15px;
+        padding-top: 20px;
         font-size: 20px;
         cursor: pointer;
-        color: #a6acaf   ;
+        color: #a6acaf;
+        transition: 0.2s;
+    }
+    .sidebar-icon:hover {
+        font-size: 28px;
+        color: #F4F6F7
     }
 }
