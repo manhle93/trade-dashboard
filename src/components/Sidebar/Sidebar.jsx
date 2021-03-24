@@ -1,11 +1,10 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import './Sidebar.style.scss'
-import './menu.css'
 import { createStructuredSelector } from "reselect";
 import { selectLayoutComponents } from "../../redux/layout/layout.selector";
 import { connect } from "react-redux";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Sidebar = props => {
     const data = props.data;
@@ -127,16 +126,19 @@ const Sidebar = props => {
     return (
         <div>
             <div className='sidebar-container'>
-                 <FontAwesomeIcon icon={faBars} className="sidebar-icon menu-icon" title='Chức năng' onClick={showMenu}/>
+                <FontAwesomeIcon icon={faBars} className="sidebar-icon menu-icon" title='Chức năng' onMouseEnter={showMenu} />
                 {data.map(el => (
                     <FontAwesomeIcon icon={el.icon} onClick={() => { props.addLayout(el.name) }} className="sidebar-icon" title={el.name} key={el.name} />
                 ))}
             </div>
-            <div className='sidebar-submenu'>
-                {
-                    menulist.map(el => <div className='submenu-item' style={{color: el.header ? 'white' : '', fontWeight: el.header ? 'bold' : '', fontSize: el.header ? '15px' : ''}} onClick={() => {props.addLayout(el.layoutName)}}>{el.name}</div>)
-                }
+            <div onMouseLeave={showMenu}>
+                {menu ? <div className='sidebar-submenu'>
+                    {
+                        menulist.map(el => <div className='submenu-item' style={{ color: el.header ? 'white' : '', fontWeight: el.header ? 'bold' : '', fontSize: el.header ? '15px' : '' }} onClick={() => { props.addLayout(el.layoutName) }}>{el.name}</div>)
+                    }
+                </div> : null}
             </div>
+
         </div>
     )
 }
