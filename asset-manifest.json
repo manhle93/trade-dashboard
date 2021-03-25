@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/trade-dashboard/static/css/main.20445096.chunk.css",
-    "main.js": "/trade-dashboard/static/js/main.ff09e5ce.chunk.js",
-    "main.js.map": "/trade-dashboard/static/js/main.ff09e5ce.chunk.js.map",
+    "main.css": "/trade-dashboard/static/css/main.92438b5f.chunk.css",
+    "main.js": "/trade-dashboard/static/js/main.8e318cfa.chunk.js",
+    "main.js.map": "/trade-dashboard/static/js/main.8e318cfa.chunk.js.map",
     "runtime-main.js": "/trade-dashboard/static/js/runtime-main.fee496f8.js",
     "runtime-main.js.map": "/trade-dashboard/static/js/runtime-main.fee496f8.js.map",
     "static/css/2.1a96d591.chunk.css": "/trade-dashboard/static/css/2.1a96d591.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.c7718986.chunk.js.map": "/trade-dashboard/static/js/3.c7718986.chunk.js.map",
     "index.html": "/trade-dashboard/index.html",
     "static/css/2.1a96d591.chunk.css.map": "/trade-dashboard/static/css/2.1a96d591.chunk.css.map",
-    "static/css/main.20445096.chunk.css.map": "/trade-dashboard/static/css/main.20445096.chunk.css.map",
+    "static/css/main.92438b5f.chunk.css.map": "/trade-dashboard/static/css/main.92438b5f.chunk.css.map",
     "static/js/2.1404e0bc.chunk.js.LICENSE.txt": "/trade-dashboard/static/js/2.1404e0bc.chunk.js.LICENSE.txt",
     "static/media/notifications.css": "/trade-dashboard/static/media/notification.c5d9251e.ttf"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.fee496f8.js",
     "static/css/2.1a96d591.chunk.css",
     "static/js/2.1404e0bc.chunk.js",
-    "static/css/main.20445096.chunk.css",
-    "static/js/main.ff09e5ce.chunk.js"
+    "static/css/main.92438b5f.chunk.css",
+    "static/js/main.8e318cfa.chunk.js"
   ]
 }
