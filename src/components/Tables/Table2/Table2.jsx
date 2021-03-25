@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import "./Table2.style.scss";
 
 const Table2 = () => {
-  const [sate, setState] = useState("");
+  const [sate, setState] = useState(0);
   const data = [
     { value: Math.floor(Math.random() * 80), color: "" },
     { value: Math.floor(Math.random() * 70), color: "" },
@@ -15,7 +15,6 @@ const Table2 = () => {
       let value1 = Math.floor(Math.random() * 90);
       let value2 = Math.floor(Math.random() * 80);
       let value3 = Math.floor(Math.random() * 70);
-
       let newData = [
         {
           value: value1,
@@ -41,11 +40,14 @@ const Table2 = () => {
   return (
     <div className="table2">
       <table className="customer">
+      <thead>
         <tr>
           <th>Company</th>
           <th>Contact</th>
           <th>Country</th>
         </tr>
+        </thead>
+        <tbody>
         <tr>
           <td>Alfreds</td>
           <td>Maria </td>
@@ -104,13 +106,17 @@ const Table2 = () => {
           <td>Marie </td>
           <td>France</td>
         </tr>
+        </tbody>
       </table>
       <table className="customer">
+      <thead>
         <tr>
           <th>Company</th>
           <th>Contact</th>
           <th>Country</th>
         </tr>
+        </thead>
+        <tbody>
         <tr>
           <td>Alfreds </td>
           <td>Maria </td>
@@ -165,6 +171,7 @@ const Table2 = () => {
             {counter.current[0].value}
           </td>
         </tr>
+        </tbody>
       </table>
     </div>
   );

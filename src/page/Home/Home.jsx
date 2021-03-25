@@ -85,9 +85,7 @@ const Home = React.forwardRef((props, ref) => {
   const homeRef = React.createRef();
 
   const factory = (node) => {
-    console.log(node)
     var name = node.getName();
-    console.log(name)
     let component = data.find((el) => el.name === name);
     return component ? component.component : "View khong ton tai";
   };

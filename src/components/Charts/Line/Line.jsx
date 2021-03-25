@@ -107,7 +107,6 @@ class Line extends React.Component {
         baseval += 86400000;
         i++;
       }
-      console.log(1, series);
       return series;
     }
   }
